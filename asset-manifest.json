@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/nuvoStoreNew/static/css/main.56e6221f.css",
+    "main.js": "/nuvoStoreNew/static/js/main.ad6bfc89.js",
+    "static/js/787.d9cb0af4.chunk.js": "/nuvoStoreNew/static/js/787.d9cb0af4.chunk.js",
+    "index.html": "/nuvoStoreNew/index.html",
+    "main.56e6221f.css.map": "/nuvoStoreNew/static/css/main.56e6221f.css.map",
+    "main.ad6bfc89.js.map": "/nuvoStoreNew/static/js/main.ad6bfc89.js.map",
+    "787.d9cb0af4.chunk.js.map": "/nuvoStoreNew/static/js/787.d9cb0af4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56e6221f.css",
+    "static/js/main.ad6bfc89.js"
+  ]
+}
