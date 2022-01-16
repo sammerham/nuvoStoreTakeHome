@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/nuvoStoreNew/static/css/main.56e6221f.css",
-    "main.js": "/nuvoStoreNew/static/js/main.ad6bfc89.js",
-    "static/js/787.d9cb0af4.chunk.js": "/nuvoStoreNew/static/js/787.d9cb0af4.chunk.js",
-    "index.html": "/nuvoStoreNew/index.html",
-    "main.56e6221f.css.map": "/nuvoStoreNew/static/css/main.56e6221f.css.map",
-    "main.ad6bfc89.js.map": "/nuvoStoreNew/static/js/main.ad6bfc89.js.map",
-    "787.d9cb0af4.chunk.js.map": "/nuvoStoreNew/static/js/787.d9cb0af4.chunk.js.map"
+    "main.css": "/nuvoStoreTakeHome/static/css/main.56e6221f.css",
+    "main.js": "/nuvoStoreTakeHome/static/js/main.aa56fe5c.js",
+    "static/js/787.d9cb0af4.chunk.js": "/nuvoStoreTakeHome/static/js/787.d9cb0af4.chunk.js",
+    "index.html": "/nuvoStoreTakeHome/index.html",
+    "main.56e6221f.css.map": "/nuvoStoreTakeHome/static/css/main.56e6221f.css.map",
+    "main.aa56fe5c.js.map": "/nuvoStoreTakeHome/static/js/main.aa56fe5c.js.map",
+    "787.d9cb0af4.chunk.js.map": "/nuvoStoreTakeHome/static/js/787.d9cb0af4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.56e6221f.css",
-    "static/js/main.ad6bfc89.js"
+    "static/js/main.aa56fe5c.js"
   ]
 }
