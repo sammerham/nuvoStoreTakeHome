@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div>
+  <div
+    style="background-color: lightgray;"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="container"
+        >
+          <div
+            class="row"
+          >
+            <div
+              class="col"
+            >
+              <h1
+                class="sc-bdvvtL dyRZpS"
+              >
+                Nuvo Store
+              </h1>
+            </div>
+          </div>
+          <div
+            class="row"
+          >
+            <div
+              class="col"
+            >
+              <p
+                class="sc-gsDKAQ dMhkiz"
+              >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.Laborum ipsum laudantium possimus dolore atque perspiciatis quisquam,quasi nemo quis ipsam sunt dolorem molestiaeporro officiis.Deleniti ipsa tenetur aspernatur sunt?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <div
+          class="col"
+        >
+          <div />
+        </div>
+        <div
+          class="col"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
