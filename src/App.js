@@ -57,7 +57,7 @@ function App() {
         setClickedId
       }}
     >
-      <div style={{ backgroundColor: 'lightgray' }}>
+      <div >
         <Container >
           <Row>
             <Col>
