@@ -1,6 +1,6 @@
 import { React, useContext } from 'react'
 import StoreContext from '../storeContext';
-import ItemDetails from './ItemDetails';
+
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -14,20 +14,7 @@ import {
   StyledItemTitle,
 } from './StyledComponents'
 
-/*
-{
-  "id": 1,
-  "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
-  "price": 109.95,
-  "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
-  "category": "men's clothing",
-  "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-  "rating": {
-    "rate": 3.9,
-    "count": 120
-  }
-}
-*/
+
 
 /*
  * Media Item
@@ -35,7 +22,7 @@ import {
  * This is the page where you rednder all info about single item
  * State: None
  * props:
-      *Item 
+      *item 
             {
               "id": 1,
               "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
@@ -52,8 +39,8 @@ import {
  * App ---->> ItemList ----> Item
  */
 function Item({ item }) {
+
   const { title, image } = item;
-  
   const {
     setCurrItem,
     setCurrItemClicked,
@@ -62,7 +49,7 @@ function Item({ item }) {
 
  
 
-// handle click fn
+// handle click fn for img , icon, title
   const handleClick = () => {
     if (clickedId === item.id) {
       setClickedId(null)
@@ -73,6 +60,7 @@ function Item({ item }) {
       setCurrItemClicked(true);
     }
   };
+
 
   return (
     <Container>

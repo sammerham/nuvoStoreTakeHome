@@ -10,15 +10,29 @@ import Col from 'react-bootstrap/Col';
 const URL = 'https://fakestoreapi.com/products?limit=5'
 
 
-
+/*
+ * App
+ *
+ * This is the page where you rednder app.
+ * State: 
+ *      Prooducts: [{}, {}, ....]
+ *      CurrItem : {}
+ *      currItemClicked Boolean
+ *      clickedId :id
+ * props:
+        None
+  
+ * App 
+ */
 
 
 function App() {
+
   const [products, setProducts] = useState([]);
   const [currItem, setCurrItem] = useState(null);
   const [currItemClicked, setCurrItemClicked] = useState(false);
   const [clickedId, setClickedId] = useState(null);
-  //clickedId === item.id 
+
 
   //side effect to get products from api on load;
   useEffect(() => {
@@ -28,6 +42,8 @@ function App() {
     };
     fetchProducts();
   }, []);
+
+
 
   return (
     <StoreContext.Provider value=

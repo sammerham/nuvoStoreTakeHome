@@ -26,7 +26,6 @@ function ItemDetails() {
   //fn handle click on details box add to cart button
   const handleClick = () => {
     // add to cart;
-    // set curritems click to false to go back to main item list 
     setCurrItemClicked(false);
     setClickedId(null)
   }
