@@ -12,32 +12,36 @@ exports[`matches snapshot 1`] = `
         class="row"
       >
         <div
-          class="container"
+          class="col"
         >
           <div
-            class="row"
+            class="container"
           >
             <div
-              class="col"
+              class="row"
             >
-              <h1
-                class="sc-bdvvtL dyRZpS"
+              <div
+                class="col"
               >
-                Nuvo Store
-              </h1>
+                <h1
+                  class="sc-bdvvtL dyRZpS"
+                >
+                  Nuvo Store
+                </h1>
+              </div>
             </div>
-          </div>
-          <div
-            class="row"
-          >
             <div
-              class="col"
+              class="row"
             >
-              <p
-                class="sc-gsDKAQ dMhkiz"
+              <div
+                class="col"
               >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.Laborum ipsum laudantium possimus dolore atque perspiciatis quisquam,quasi nemo quis ipsam sunt dolorem molestiaeporro officiis.Deleniti ipsa tenetur aspernatur sunt?
-              </p>
+                <p
+                  class="sc-gsDKAQ dMhkiz"
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.Laborum ipsum laudantium possimus dolore atque perspiciatis quisquam,quasi nemo quis ipsam sunt dolorem molestiaeporro officiis.Deleniti ipsa tenetur aspernatur sunt?
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -46,12 +50,12 @@ exports[`matches snapshot 1`] = `
         class="row"
       >
         <div
-          class="col"
+          class="col-md-6 col-sm"
         >
           <div />
         </div>
         <div
-          class="col"
+          class="col-md-6 col-sm"
         />
       </div>
     </div>
